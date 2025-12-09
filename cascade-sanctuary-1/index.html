@@ -1,11 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 2rem;
+      }
+
+      header {
+        background-color: dimgray;
+        text-align: center;
+        padding: 4rem;
+        color: white;
+        font-size: 3rem;
+      }
+
+      nav ul {
+        background-color: gray;
+        text-align: center;
+        padding: 2.5rem;
+        margin-top: 1rem;
+        color: white;
+        list-style: none;
+        font-size: 1.2rem;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 2rem;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .blog-title {
+        border: 2px solid lightgrey;
+        padding: 0.5rem;
+        margin-top: 1rem;
+        text-align: center;
+      }
+
+      .blog-content {
+        border: 2px solid lightgrey;
+        padding: 0.5rem;
+        margin-top: 1rem;
+      }
+
+      .blog-list {
+        border: 2px solid lightgrey;
+        padding: 1rem;
+        margin-top: 1rem;
+        width: 100%;
+      }
+
+      .blog-list td {
+        border-bottom: 1px solid lightgray;
+        padding: 1rem;
+      }
+
+      footer {
+        background-color: dimgray;
+        text-align: center;
+        padding: 1.5rem;
+        margin-top: 1rem;
+        color: white;
+      }
+
+      footer ul {
+        text-align: center;
+        margin-top: 1rem;
+        color: white;
+        list-style: none;
+        font-size: 1.2rem;
+      }
+
+      footer ul li {
+        display: inline;
+        margin-right: 2rem;
+      }
+
+      footer ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      ul li:last-child {
+        margin-right: 0;
+      }
+    </style>
     <title>Cascade Sanctuary One</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <nav>
+      <header>BLOG TITLE</header>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Categories</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+    </nav>
+
+    <div class="blog-title">
+      <h1>Blog Post Title</h1>
+    </div>
+
+    <div class="blog-content">
+      <h3>Blog Post Content Preview</h3>
+    </div>
+
+    <table class="blog-list">
+      <tbody>
+        <tr>
+          <td>Post 1</td>
+        </tr>
+        <tr>
+          <td>Post 2</td>
+        </tr>
+        <tr>
+          <td>Post 3</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <footer>
+      <ul>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Privacy Policy</a></li>
+      </ul>
+    </footer>
+  </body>
 </html>
