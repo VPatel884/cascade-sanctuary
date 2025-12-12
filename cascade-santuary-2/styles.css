@@ -1,0 +1,100 @@
+body {
+  margin-bottom: 70px;
+}
+
+.item-one {
+  position: relative;
+}
+
+.item-two {
+  position: relative;
+  left: 30px;
+}
+
+.item-three {
+  position: relative;
+  left: 60px;
+}
+
+.box-one {
+  background-color: lightgray;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+}
+
+.box-two {
+  background-color: lightgray;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  top: 30px;
+}
+
+.box-three {
+  background-color: lightgray;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  top: 60px;
+}
+
+.heading {
+  position: relative;
+  top: 40px;
+}
+
+.outer-box {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  background-color: lightgray;
+  position: relative;
+  top: 30px;
+}
+
+.inner-box {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background-color: lightpink;
+  padding: 5px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.border-box {
+  position: relative;
+  display: inline-block;
+  top: 30px;
+  border: 2px solid black;
+}
+
+.menu-box {
+  display: inline-block;
+  position: relative;
+  background-color: lightpink;
+  padding: 8px;
+}
+
+.content-box {
+  display: inline-block;
+  position: relative;
+  background-color: lightgray;
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+}
+
+.menu {
+  display: inline-block;
+  position: relative;
+  background-color: lightgray;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
